@@ -1,0 +1,29 @@
+<h1 class="headText">Property Binding Component</h1>
+
+
+
+<!-- [] is used for property binding using this we can simply call the variable -->
+<input type="text" [placeholder]="name">
+<br>
+<img [src]="imgPath" class="img">
+<br>
+
+
+<!-- using Interpolation -->
+<!-- <img src="{{imgPath}}" class="img"> -->
+
+
+
+<!-- Differnce between interpolation & property binding -->
+<!-- boolean value does not affect on interpolation -->
+
+<button (click)="enableDisable()">Enable Disable</button>
+<br>
+
+<!-- interpolation -->
+<button disabled="{{isDisable}}">Click</button>
+
+<br>
+
+<!-- property binding -->
+<button [disabled]="isDisable">Click</button>

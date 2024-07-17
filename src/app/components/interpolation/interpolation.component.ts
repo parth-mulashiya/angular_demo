@@ -27,11 +27,16 @@ export class InterpolationComponent {
   date:Date = new Date();     //Date() function to show the current date
 
 
-  //function ex
+  //function example
   show():string{    // :string is return type it is not compulsory
     return "This is function Example"
   }
 
-
-
+  //object example
+  user={
+    id:101,
+    name:"Parth",
+    age:22,
+    address:"Rajkot"
+  }
 }
