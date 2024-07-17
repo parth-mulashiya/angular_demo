@@ -1,0 +1,12 @@
+<!-- headText class are from main styles.css file it is globaly so we can use any where in this project -->
+<h1 class="headText">Form Component</h1>
+
+<!-- #input : This creates a reference to the input element itself (myInput).
+You can access its properties, such as .value. -->
+<input type="text" #input placeholder="Enter name"/>
+<br>
+<button (click)="printName(input.value)">Submit</button>
+<!-- (click)="printName(input.value)": When the button is clicked,
+ it calls the printName() function and passes input.value as an argument. -->
+
+<h5>{{output}}</h5>
