@@ -1,6 +1,21 @@
 # AngularDemo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.0.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli).
+
+## Install Angular
+
+### Prerequisites
+
+Node JS
+
+### To Install Angular
+
+Run `npm install -g @angular/cli` it install Angular CLI in your system globlay.
+
+
+## Create New Project In Angular
+
+Go to specific path in cmd/terminal where u have to create the Angulrar project.Run `ng new project-name`.
 
 ## Development server
 
