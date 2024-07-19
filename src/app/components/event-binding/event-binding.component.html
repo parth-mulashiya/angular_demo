@@ -1,0 +1,26 @@
+<h1 class="headText">Event Binding Component</h1>
+
+
+<!-- To bind an events such as click,keyup,keydown etc. we have to use Event Binding -->
+<!-- To use Event Binding we have to use () in events name like (click)= "function_name()" -->
+<button (click)="onClick()">Click Me</button>
+
+<br><br>
+
+<!-- we also use arguments in function -->
+<button (click)="onName('Parth')">Click Me</button>
+
+<h3>Name is : <b>{{name}}</b></h3>
+
+<input type="text" (keyup)="onKeyUp()">
+
+
+<br><br><br><br>
+<!-- to create a refernce of this input we have to use # -->
+<!-- use # with the name like #txt -->
+<!-- we can its value by using .value with the ref name -->
+<!-- like txt.value -->
+Your Name is : <input type="text" #txt (keydown)="submit(txt.value)">
+
+<br><br>
+Name is : <b>{{name1}}</b>

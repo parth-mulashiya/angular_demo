@@ -1,0 +1,11 @@
+<h1 class="headText">Style Binding Component</h1>
+
+<!-- Normal css style -->
+<button style="background-color:yellowgreen;">Click Me</button>
+
+<br><br>
+
+<!-- applying css using Style Binding -->
+<!-- style binding is used as [style.<property-name>]='<ts_file_variable>' -->
+<!-- in this we have to create an variables in ts file there we have to define all property which we have to use in this button -->
+<button [style.backgroundColor]="btnColor" [style.color]="textColor" [style.font-size.px]="textSize">Click Me</button>
