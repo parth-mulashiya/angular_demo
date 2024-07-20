@@ -8,11 +8,12 @@ import { PropertyBindingComponent } from './components/property-binding/property
 import { StyleBindingComponent } from './components/style-binding/style-binding.component';
 import { ClassBindingComponent } from './components/class-binding/class-binding.component';
 import { EventBindingComponent } from './components/event-binding/event-binding.component';
+import { TwoWayDataBindingComponent } from './components/two-way-data-binding/two-way-data-binding.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,HomeComponent,AboutComponent,InterpolationComponent,FormComponent,PropertyBindingComponent,StyleBindingComponent,ClassBindingComponent,EventBindingComponent],  //import the component name here
+  imports: [RouterOutlet,HomeComponent,AboutComponent,InterpolationComponent,FormComponent,PropertyBindingComponent,StyleBindingComponent,ClassBindingComponent,EventBindingComponent,TwoWayDataBindingComponent],  //import the component name here
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

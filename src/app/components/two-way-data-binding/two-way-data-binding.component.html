@@ -1,0 +1,19 @@
+<h1 class="headText">Two Way Data Binding Component</h1>
+
+<div class="col-4">
+
+  <h3>One Way Data Binding</h3>
+  <input type="text" #input placeholder="Enter name" class="form-control"/>
+  <br>
+  <button (click)="changeName(input.value)"  class="btn btn-primary">Submit</button>
+  <h4>Name is : {{name}}</h4>
+
+  <h3>Two Way Data Binding</h3>
+  <!-- [(ngModel)]: This directive is used primarily within <input>, <textarea>, and
+    <select> elements to enable two-way data binding.
+    It binds the value of an input field to a property in the component's TypeScript code. -->
+  <input type="text" [(ngModel)]="name" placeholder="Enter name" class="form-control"/>
+  <h4>Name is : {{name}}</h4>
+  <br>
+  <!-- <button class="btn btn-primary" >Submit</button> -->
+</div>
