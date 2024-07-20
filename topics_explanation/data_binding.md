@@ -1,4 +1,4 @@
-Certainly! Data binding is a core concept in Angular that provides a way to connect and synchronize data between the component class and the view template. It allows for automatic updates of data in both directions, reducing the need for manual DOM manipulation.
+Data binding is a core concept in Angular that provides a way to connect and synchronize data between the component class and the view template. It allows for automatic updates of data in both directions, reducing the need for manual DOM manipulation.
 
 In Angular, there are four types of data binding:
 
@@ -58,46 +58,5 @@ Let's explore each type in detail:
 
    This binds the input value to the `username` property in the component. Changes in either the input field or the component property are reflected in both places.
 
-Additional Details:
-
-- Attribute Binding:
-  A variant of property binding that specifically targets attributes.
-  Syntax: [attr.attribute-name]="expression"
-  
-  Example:
-  ```html
-  <td [attr.colspan]="columnSpan">Content</td>
-  ```
-
-- Class Binding:
-  Allows adding or removing CSS classes.
-  Syntax: [class.class-name]="expression"
-  
-  Example:
-  ```html
-  <div [class.special]="isSpecial">Special content</div>
-  ```
-
-- Style Binding:
-  Allows setting inline styles.
-  Syntax: [style.style-property]="expression"
-  
-  Example:
-  ```html
-  <div [style.color]="isError ? 'red' : 'black'">Message</div>
-  ```
-
-- Custom Two-way Binding:
-  You can create custom two-way binding using a combination of property binding and event binding.
-  
-  Example:
-  ```html
-  <app-counter [(value)]="counterValue"></app-counter>
-  ```
-  
-  This is equivalent to:
-  ```html
-  <app-counter [value]="counterValue" (valueChange)="counterValue=$event"></app-counter>
-  ```
 
 Data binding in Angular provides a powerful way to create dynamic and responsive applications. It simplifies the process of keeping the view in sync with the component's data and vice versa, leading to more maintainable and easier-to-understand code.
