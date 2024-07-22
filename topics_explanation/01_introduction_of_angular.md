@@ -1,4 +1,4 @@
-Let's dive into a detailed introduction to Angular:
+## Introduction of Angular
 
 Angular is a popular open-source web application framework developed and maintained by Google. It's used for building dynamic, single-page applications (SPAs) and complex web applications. Angular is a complete rewrite of AngularJS (Angular 1.x), and versions from Angular 2 onwards are simply referred to as "Angular".
 
