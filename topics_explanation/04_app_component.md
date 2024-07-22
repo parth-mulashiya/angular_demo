@@ -1,3 +1,5 @@
+## App Component
+
 The App Component in Angular is a crucial part of every Angular application. It serves as the root component and acts as the main container for all other components in your application. Let's dive into the details of the App Component:
 
 1. Purpose:

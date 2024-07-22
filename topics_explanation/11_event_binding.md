@@ -1,3 +1,5 @@
+## Event Binding
+
 Event Binding is a feature in Angular that allows you to listen for and respond to user actions or browser events in your application. It's a way to handle events like clicks, keystrokes, mouse movements, and more.
 
 Key Aspects of Event Binding:

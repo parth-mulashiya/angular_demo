@@ -1,3 +1,5 @@
+## Binding Data from Component
+
 Binding data from a component in Angular. This is a fundamental concept in Angular that allows you to display and manipulate data in your templates.
 
 

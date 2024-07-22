@@ -1,3 +1,5 @@
+## Property Binding
+
 Property binding is a crucial feature in Angular that allows you to set properties of DOM elements or directives. Let's dive deep into the details of property binding:
 
 1. Basic Syntax:

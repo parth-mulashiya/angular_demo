@@ -1,4 +1,4 @@
-Template Interpolation in Angular.
+## Template Interpolation in Angular
 
 Template Interpolation is one of the fundamental ways to display data in Angular templates. It's a one-way data binding technique that allows you to embed expressions into marked-up text in your HTML templates.
 

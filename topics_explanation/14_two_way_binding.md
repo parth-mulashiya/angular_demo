@@ -1,3 +1,5 @@
+##  Two-Way Binding
+
 Two-Way Binding in Angular is a powerful feature that combines property binding and event binding to create a bidirectional data flow between the component and its template. Let's dive into the details of how it works and how to use it effectively.
 
 

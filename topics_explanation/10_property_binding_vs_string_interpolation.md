@@ -1,3 +1,5 @@
+## Property Binding vs String Interpolation
+
 The difference between Property Binding and String Interpolation in Angular.
 
 1. String Interpolation:

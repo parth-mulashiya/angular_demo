@@ -1,3 +1,5 @@
+## Types of Binding
+
 Angular offers four main types of data binding, each serving a specific purpose in synchronizing data between the component class and its template. Let's explore each type in detail:
 
 1. Interpolation (One-way, Component to View):

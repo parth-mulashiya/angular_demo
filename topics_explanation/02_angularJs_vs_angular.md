@@ -1,3 +1,5 @@
+## AngularJs vs Angular
+
 AngularJS (also known as Angular 1.x) and Angular (versions 2 and above) are both web application frameworks, but they have significant differences. Let's compare them in detail:
 
 1. Architecture:

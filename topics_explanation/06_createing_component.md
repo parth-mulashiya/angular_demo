@@ -1,3 +1,5 @@
+## Createing Components
+
 Creating components in Angular is a fundamental task in building Angular applications. Let's go through the process of creating components, including both manual creation and using the Angular CLI.
 
 1. Using Angular CLI (Recommended Method):

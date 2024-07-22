@@ -1,3 +1,5 @@
+## Understanding Directives
+
 Directives are a fundamental concept in Angular that allow you to extend the behavior of HTML elements or create reusable components. Let's dive into a detailed explanation of directives in Angular.
 
 

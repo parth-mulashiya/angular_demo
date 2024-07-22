@@ -1,3 +1,5 @@
+## Anatomy of Component
+
 The anatomy of a component in Angular is a fundamental concept to understand. Components are the basic building blocks of Angular applications. Let's break down the structure and elements of a typical Angular component:
 
 1. Component Class:
