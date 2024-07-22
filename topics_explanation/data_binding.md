@@ -1,3 +1,5 @@
+# Data binding
+
 Data binding is a core concept in Angular that provides a way to connect and synchronize data between the component class and the view template. It allows for automatic updates of data in both directions, reducing the need for manual DOM manipulation.
 
 In Angular, there are four types of data binding:

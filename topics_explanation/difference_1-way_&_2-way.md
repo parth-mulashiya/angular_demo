@@ -1,3 +1,5 @@
+# One-way vs Two-way Binding
+
 One-way data binding and two-way data binding are both important concepts in Angular for synchronizing data between the component and the view. Here's an explanation of each:
 
 1. One-way data binding:
