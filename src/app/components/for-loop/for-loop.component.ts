@@ -12,5 +12,4 @@ export class ForLoopComponent {
 
   fruits = ['Apple', 'Banana', 'Orange']
 
-  i = 1
 }
