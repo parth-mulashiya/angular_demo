@@ -10,11 +10,12 @@ import { ClassBindingComponent } from './components/class-binding/class-binding.
 import { EventBindingComponent } from './components/event-binding/event-binding.component';
 import { TwoWayDataBindingComponent } from './components/two-way-data-binding/two-way-data-binding.component';
 import { DemoComponent } from './components/demo/demo.component';
+import { ParentComponent } from './components/parent/parent.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,HomeComponent,AboutComponent,InterpolationComponent,FormComponent,PropertyBindingComponent,StyleBindingComponent,ClassBindingComponent,EventBindingComponent,TwoWayDataBindingComponent,DemoComponent],  //import the component name here
+  imports: [RouterOutlet,HomeComponent,AboutComponent,InterpolationComponent,FormComponent,PropertyBindingComponent,StyleBindingComponent,ClassBindingComponent,EventBindingComponent,TwoWayDataBindingComponent,DemoComponent,ParentComponent],  //import the component name here
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
