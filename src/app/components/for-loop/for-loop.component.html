@@ -1,0 +1,17 @@
+<h1 class="headText">For Loop Component</h1>
+
+
+<!-- For loop example -->
+ <!-- old method of for loop -->
+<ul>
+  <li *ngFor="let fruit of fruits">
+    {{ fruit }}
+  </li>
+</ul>
+
+
+<!-- new method of for loop -->
+
+@for (fruit of fruits; track $index) {
+  <h3>{{fruit}}</h3>
+}
