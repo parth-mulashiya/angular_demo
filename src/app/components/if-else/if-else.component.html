@@ -1,0 +1,30 @@
+<h1 class="headText">If Else Component</h1>
+
+
+<!-- old method for if condition -->
+<div *ngIf="age>=18">
+
+  <h3>You are aligible</h3>
+</div>
+
+
+
+<!-- new method for if condition -->
+@if(isAdmin){
+  <h3>You are admin</h3>
+}
+@else {
+  <h3>You are not admin</h3>
+}
+
+
+<!-- if else-if condition -->
+@if(color == "blue"){
+  <h4>Color is Blue</h4>
+}@else if (color == "green") {
+  <h4>Color is Green</h4>
+}@else if (color == "red") {
+  <h4>Color is Red</h4>
+}@else {
+  <h4>Color is Black</h4>
+}
