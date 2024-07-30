@@ -15,3 +15,38 @@
 @for (fruit of fruits; track $index) {
   <h3>{{fruit}}</h3>
 }
+
+<!-- for loop -->
+
+
+<table class="table table-striped">
+  <thead>
+    <th>Index</th>
+    <th>Id</th>
+    <th>Name</th>
+    <th>Salary</th>
+    <th>Age</th>
+  </thead>
+  <tbody>
+      @for(emp of employees;let i = $index;let e = $even; track emp.id){
+        <!-- <tr>
+          <td>{{i+1}}</td>
+          <td>{{emp.id}}</td>
+          <td>{{emp.name}}</td>
+          <td>{{emp.salary}}</td>
+          <td>{{emp.age}}</td>
+        </tr> -->
+        @if(e == true){
+          <tr>
+          <td>{{i+1}}</td>
+          <td>{{emp.id}}</td>
+          <td>{{emp.name}}</td>
+          <td>{{emp.salary}}</td>
+          <td>{{emp.age}}</td>
+        </tr>
+        }
+      }
+      <!-- $index variable is used to print the index of object -->
+      <!-- $even variable is used to print even records from thi list -->
+  </tbody>
+</table>
