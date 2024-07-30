@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, output } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 
@@ -15,9 +15,14 @@ import { FormsModule } from '@angular/forms';
 export class TwoWayDataBindingComponent {
 
   name:string = ""
+  output:string = ""
 
   changeName(val:string){
     this.name = val
+  }
+
+  onClick(){
+    this.output = this.name
   }
 
 }
