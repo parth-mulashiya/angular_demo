@@ -2,7 +2,7 @@
 
 
 <!-- For loop example -->
- <!-- old method of for loop -->
+<!-- old method of for loop -->
 <ul>
   <li *ngFor="let fruit of fruits">
     {{ fruit }}
@@ -13,47 +13,47 @@
 <!-- new method of for loop -->
 
 @for (fruit of fruits; track $index) {
-  <h3>{{fruit}}</h3>
+<h3>{{fruit}}</h3>
 }
 
 
 
 <!-- for loop -->
 <table class="table table-striped">
-  <thead>
-    <th>Index</th>
-    <th>Id</th>
-    <th>Name</th>
-    <th>Salary</th>
-    <th>Age</th>
-  </thead>
   <tbody>
-      @for(emp of employees;let i = $index;let e = $even; track emp.id){
-        <!-- <tr>
+    <tr>
+      <td>Index</td>
+      <td>Id</td>
+      <td>Name</td>
+      <td>Salary</td>
+      <td>Age</td>
+    </tr>
+    @for(emp of employees;let i = $index;let e = $even; track emp.id){
+    <!-- <tr>
           <td>{{i+1}}</td>
           <td>{{emp.id}}</td>
           <td>{{emp.name}}</td>
           <td>{{emp.salary}}</td>
           <td>{{emp.age}}</td>
         </tr> -->
-        @if(e == true){
-          <tr>
-          <td>{{i+1}}</td>
-          <td>{{emp.id}}</td>
-          <td>{{emp.name}}</td>
-          <td>{{emp.salary}}</td>
-          <td>{{emp.age}}</td>
-        </tr>
-        }
-      }@empty {
-        <!-- if there is no data comes from backend then we can show message like this. -->
-        <tr>
-          <td>No Data Found.</td>
-        </tr>
-      }
-      <!-- $index variable is used to print the index of object -->
-      <!-- $even variable is used to print even records from thi list -->
-      <!-- $first variable is used to print first records from thi list -->
-      <!-- $last variable is used to print last records from thi list -->
+    @if(e == true){
+    <tr>
+      <td>{{i+1}}</td>
+      <td>{{emp.id}}</td>
+      <td>{{emp.name}}</td>
+      <td>{{emp.salary}}</td>
+      <td>{{emp.age}}</td>
+    </tr>
+    }
+    }@empty {
+    <!-- if there is no data comes from backend then we can show message like this. -->
+    <tr>
+      <td>No Data Found.</td>
+    </tr>
+    }
+    <!-- $index variable is used to print the index of object -->
+    <!-- $even variable is used to print even records from thi list -->
+    <!-- $first variable is used to print first records from thi list -->
+    <!-- $last variable is used to print last records from thi list -->
   </tbody>
 </table>
