@@ -16,9 +16,9 @@
   <h3>{{fruit}}</h3>
 }
 
+
+
 <!-- for loop -->
-
-
 <table class="table table-striped">
   <thead>
     <th>Index</th>
@@ -45,8 +45,15 @@
           <td>{{emp.age}}</td>
         </tr>
         }
+      }@empty {
+        <!-- if there is no data comes from backend then we can show message like this. -->
+        <tr>
+          <td>No Data Found.</td>
+        </tr>
       }
       <!-- $index variable is used to print the index of object -->
       <!-- $even variable is used to print even records from thi list -->
+      <!-- $first variable is used to print first records from thi list -->
+      <!-- $last variable is used to print last records from thi list -->
   </tbody>
 </table>

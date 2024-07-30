@@ -12,7 +12,7 @@ export class ForLoopComponent {
 
   fruits = ['Apple', 'Banana', 'Orange']
 
-  employees = [
+  employees:any = [
     {id:101,name: "Parth",salary:30000,age:22},
     {id:102,name: "Prashant",salary:24000,age:24},
     {id:103,name: "Nirav",salary:27000,age:23},

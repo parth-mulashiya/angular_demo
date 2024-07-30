@@ -13,11 +13,12 @@ import { DemoComponent } from './components/demo/demo.component';
 import { ParentComponent } from './components/parent/parent.component';
 import { IfElseComponent } from './components/if-else/if-else.component';
 import { ForLoopComponent } from './components/for-loop/for-loop.component';
+import { SwitchComponent } from "./components/switch/switch.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,HomeComponent,AboutComponent,InterpolationComponent,FormComponent,PropertyBindingComponent,StyleBindingComponent,ClassBindingComponent,EventBindingComponent,TwoWayDataBindingComponent,DemoComponent,ParentComponent,IfElseComponent,ForLoopComponent],  //import the component name here
+  imports: [RouterOutlet, HomeComponent, AboutComponent, InterpolationComponent, FormComponent, PropertyBindingComponent, StyleBindingComponent, ClassBindingComponent, EventBindingComponent, TwoWayDataBindingComponent, DemoComponent, ParentComponent, IfElseComponent, ForLoopComponent, SwitchComponent],  //import the component name here
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
