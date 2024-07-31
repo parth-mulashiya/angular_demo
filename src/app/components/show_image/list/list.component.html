@@ -1,0 +1,9 @@
+
+<h1 class="headText">Show Image Using EventEmitter</h1>
+
+<br>
+
+<select (change)="handleSelection($event)" >
+  <option *ngFor="let item of itemList" [selected]="item.item === selectedItem.item">{{item.item}}</option>
+</select>
+<br>
