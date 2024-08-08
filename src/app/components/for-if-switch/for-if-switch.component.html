@@ -1,0 +1,28 @@
+
+
+<div style="padding-left: 20px;">
+
+  <h1>ngFor</h1>
+  <div *ngFor="let item of items">
+    <h4>This is {{item}}</h4>
+  </div>
+  <hr/>
+
+  <h1>ngSwitch</h1>
+  <div [ngSwitch]="selectedColor">
+    <h4 *ngSwitchCase="'red'">Red Color</h4>
+    <h4 *ngSwitchCase="'blue'">blue Color</h4>
+    <h4 *ngSwitchCase="'black'">black Color</h4>
+  </div>
+
+  <hr/>
+
+  <h1>ngIf</h1>
+  <div *ngIf="selectedColor == 'red'">
+    <h4>color is  red</h4>
+  </div>
+  <div *ngIf="selectedColor != 'red'">
+    <h4>color is not  red</h4>
+  </div>
+
+</div>

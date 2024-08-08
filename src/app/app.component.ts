@@ -16,11 +16,12 @@ import { ForLoopComponent } from './components/for-loop/for-loop.component';
 import { SwitchComponent } from "./components/switch/switch.component";
 import { ListComponent } from './components/show_image/list/list.component';
 import { ShowImgComponent } from './components/show_image/show-img/show-img.component';
+import { ForIfSwitchComponent } from "./components/for-if-switch/for-if-switch.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, HomeComponent, AboutComponent, InterpolationComponent, FormComponent, PropertyBindingComponent, StyleBindingComponent, ClassBindingComponent, EventBindingComponent, TwoWayDataBindingComponent, DemoComponent, ParentComponent, IfElseComponent, ForLoopComponent, SwitchComponent,ListComponent,ShowImgComponent],  //import the component name here
+  imports: [RouterOutlet, HomeComponent, AboutComponent, InterpolationComponent, FormComponent, PropertyBindingComponent, StyleBindingComponent, ClassBindingComponent, EventBindingComponent, TwoWayDataBindingComponent, DemoComponent, ParentComponent, IfElseComponent, ForLoopComponent, SwitchComponent, ListComponent, ShowImgComponent, ForIfSwitchComponent],  //import the component name here
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
