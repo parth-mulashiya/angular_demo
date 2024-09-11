@@ -88,3 +88,13 @@ Angular uses a hierarchical injection system. If a dependency isn't found in a c
 3. **Multi Providers**: Allow multiple services to be injected for a single token.
 
 Understanding and effectively using Dependency Injection is crucial for building scalable and maintainable Angular applications.
+
+### Here are some key points to remember:
+
+1. DI is a core concept in Angular that helps create loosely coupled components.
+2. The Angular injector is responsible for creating and delivering dependencies.
+3. Providers tell the injector how to create dependencies.
+4. Injection can be configured at different levels: application-wide, module-level, or component-level.
+5. Angular uses a hierarchical injection system.
+
+Would you like me to elaborate on any specific part of this guide? Or do you have any questions about how to implement DI in your Angular project?
