@@ -162,7 +162,7 @@ describe('MyComponent', () => {
 ```
 
 
-Here are the key points to remember:
+### Here are the key points to remember:
 
 1. Services are typically injected through the component's constructor.
 2. The class itself usually serves as the injection token for class-based services.
