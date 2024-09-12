@@ -1,10 +1,10 @@
 # Injecting a Service into other services
 
-1. Understanding Angular Services
+### 1. Understanding Angular Services
 
 Services in Angular are singleton objects that get instantiated only once during the lifetime of an application. They contain methods that maintain data throughout the life of an application, thus providing a means to share data and functionality across components, directives, and other services.
 
-2. Creating a Service
+### 2. Creating a Service
 
 Let's start by creating a simple service:
 
@@ -23,7 +23,7 @@ export class LoggerService {
 
 This `LoggerService` has a simple `log` method that we'll use in other services.
 
-3. Injecting a Service into Another Service
+### 3. Injecting a Service into Another Service
 
 Now, let's create another service that will use our `LoggerService`:
 
@@ -60,11 +60,11 @@ Here's what's happening:
 - Angular's dependency injection system will create an instance of `LoggerService` (if it doesn't already exist) and pass it to our `DataService`.
 - We can then use the `logger` throughout our `DataService`.
 
-4. How Dependency Injection Works
+### 4. How Dependency Injection Works
 
 When you inject a service, Angular's injector looks for the provider of that service. The provider tells Angular how to create the service. In our examples, we've used `providedIn: 'root'`, which makes the service available application-wide.
 
-5. Injection Tokens
+### 5. Injection Tokens
 
 For more complex scenarios, you might use injection tokens. These are especially useful when you want to inject values or when you have multiple services implementing the same interface.
 
@@ -81,11 +81,11 @@ export class ApiService {
 }
 ```
 
-6. Hierarchical Injection
+### 6. Hierarchical Injection
 
 Services can be provided at different levels: root, module, or component. This creates a hierarchy of injectors. If a service is not found at one level, Angular looks up the injector tree.
 
-7. Using a Service in a Component
+### 7. Using a Service in a Component
 
 While not directly related to service-to-service injection, it's worth noting that you inject services into components the same way:
 
@@ -104,7 +104,7 @@ export class MyComponent {
 }
 ```
 
-8. Testing Considerations
+### 8. Testing Considerations
 
 One of the benefits of dependency injection is improved testability. You can easily mock services in unit tests:
 
