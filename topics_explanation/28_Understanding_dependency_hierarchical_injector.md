@@ -125,7 +125,7 @@ export class ChildComponent {
 3. **Flexibility**: Provides fine-grained control over service instances
 4. **Testability**: Easier to provide mock services for testing
 
-Here are the key points to remember:
+### Here are the key points to remember:
 
 1. Angular's Hierarchical Injector works on a parent-child relationship, mirroring the component tree.
 2. There are three main levels of injectors: Root, Module, and Component.
